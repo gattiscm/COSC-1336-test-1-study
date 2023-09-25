@@ -1,28 +1,28 @@
 import random
 
 def AND(a, b):
-    if a and b == 1:
+    if a == 1 and b == 1:
         output = 1
     else:
         output = 0
     return  output
 
 def OR(a, b):
-    if a and b != 1:
+    if a == 1 or b == 1:
         output = 1
     else:
         output = 0
     return output
 
 def NAND(a, b):
-    if a and b == 0:
-        output = 1
-    else:
+    if a == 1 and b == 1:
         output = 0
+    else:
+        output = 1
     return output
 
 def NOR(a, b):
-    if a and b == 1:
+    if a == 0 and b == 0:
         output = 1
     else:
         output = 0
