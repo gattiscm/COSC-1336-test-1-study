@@ -4,8 +4,8 @@ import number_systems
 ###############################################################################
 # Program: COSC-1336 Test I Study Program                                     #
 # Author: C. Gattis                                                           #
-# Release: 1.1                                                                #
-# Date: 24 September 2023                                                     #
+# Release: 1.1.1                                                                #
+# Date: 25 September 2023                                                     #
 ###############################################################################
 
 def numbersystems_menu(number_of_operations):
